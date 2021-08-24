@@ -6,7 +6,7 @@ from requests.api import request
 
 
 main_page_bp = Blueprint('main_page_bp', __name__,
-                         template_folder='templates', url_prefix='index')
+                         template_folder='templates')
 
 
 @main_page_bp.route('/')
