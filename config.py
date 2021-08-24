@@ -7,7 +7,7 @@ class ProductionConfig(Config):
     DATABASE_URI = ''
 class DevelopmentConfig(Config):
     ENV="development"
-    SECRET_KEY="6ae4a778-a51a-4fda-9efa-a074d41fd768"
+    SECRET_KEY=""
     DEBUG = True
 class TestingConfig(Config):
     TESTING = True
